@@ -42,7 +42,7 @@ def import_signal(path: str) -> Dict[str, dict]:
         return signal_sample
 
 
-# Select data set range (original data contained 290 leads):
+# Select data set range (original data contained 290 leads):     
 all_lead_range = range(289)
 
 # Shuffle to get a mix of sources
